@@ -17,14 +17,5 @@ div#p5js-container {
 #guiContainer {
   position: fixed;
   right: 0;
-}
-@media screen and (min-width: 900px) {
-  #guiContainer {
-    top: 0;
-  }
-}
-@media screen and (max-width: 900px) {
-  #guiContainer {
-    bottom: 0;
-  }
+  top: 0;
 }

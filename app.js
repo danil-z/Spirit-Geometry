@@ -26,7 +26,7 @@ let guiElements = {
   outerRadius: 100,
   randomize:function(){ Randomize();},
   capture:function(){ Export();},
-  Author:function(){ window.open("https://x.vectr.is/", '_blank').focus(); }
+  Author:function(){ window.open("https://vectr.is/", '_blank').focus(); }
 }
 
 let gui = new dat.GUI({ autoPlace: false });
