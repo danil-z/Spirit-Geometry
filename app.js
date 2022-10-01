@@ -30,6 +30,9 @@ let guiElements = {
 }
 
 let gui = new dat.GUI({ autoPlace: false });
+if(window.innerWidth < 768){
+  gui.close();
+}
 gui.domElement.id = 'gui';
 document.getElementById('guiContainer').appendChild(gui.domElement);
 
